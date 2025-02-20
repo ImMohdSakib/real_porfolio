@@ -9,16 +9,17 @@ export const projectsData = [
         code: '',
         demo: '',
     },
-    {
+     {
         id: 2,
-        name: 'Youtube Clone',
-        description: "I built a YouTube clone using React.js that looks and functions just like the real YouTube. I integrated YouTube's API to fetch and display videos seamlessly. The application provides a user-friendly interface with features like video search, video playback, and recommended videos, delivering an authentic YouTube experience.",
-        // tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
-        tools: ['React.js', 'REST API',],
-        role: 'Frontend',
+        name: 'E-Commerce Website',
+        description: "I built a basic e-commerce website using React.js, Spring Boot, and MySQL. This project allows users to add products, view listings, and manage a shopping cart. Unlike traditional e-commerce platforms, any user can add products, making it a simple and open marketplace. The website features a clean and responsive UI, ensuring a smooth user experience. This project demonstrates my ability to integrate frontend and backend technologies to create functional web applications.",
+        // tools: ['NextJS', 'Material UI', 'Redux', 'Sun Editor', "Calendar"],
         code: '',
+        tools: ['React.js, Spring Boot, MySQL',],
+        role: 'Full Stack Developer',
         demo: '',
     },
+   
     {
         id: 3,
         name: 'Trading Web Application',
@@ -38,7 +39,17 @@ export const projectsData = [
         tools: ['React.js, apis',],
         role: 'Frontend',
         demo: '',
-    }
+    },
+     {
+        id: 5,
+        name: 'Youtube Clone',
+        description: "I built a YouTube clone using React.js that looks and functions just like the real YouTube. I integrated YouTube's API to fetch and display videos seamlessly. The application provides a user-friendly interface with features like video search, video playback, and recommended videos, delivering an authentic YouTube experience.",
+        // tools: ['NextJS', 'Tailwind CSS', "Google Maps", "NestJS", "TypeScript", "MySQL", "AWS S3", "Sun-Editor", "Gmail Passkey"],
+        tools: ['React.js', 'REST API',],
+        role: 'Frontend',
+        code: '',
+        demo: '',
+    },
 ];
 
 
